@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.showcase {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/87c9252d-ea2f-4396-8c0e-c17cc6e2e896/KR-ko-20230213-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  position: relative;
+  border-bottom: 8px solid #3d3d3d;
+  /* background: rgba(0, 0, 0, 0.4); */
+  /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60% rgba(0, 0, 0, 0.8)); */
+}
+
+.svg-netflix-logo {
+  fill: #e50914;
+  margin-right: auto;
+  display: block;
+  /* width: 100px; */
+  /* height: 100px; */
+}
+
+.section,
+.footer {
+  background-color: #000000;
+}
+
+.btn-login {
+  width: 95px;
+  height: 40px;
+  background-color: #e50914;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  /* font-weight: bold; */
+  text-align: center;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.showcase-banner {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.language-box {
+  width: 95px;
+  height: 40px;
+  border: 1px solid white;
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 10px;
+  border-radius: 2px;
+}
+
+.language-icon {
+  width: 20px;
+  fill: white;
+}
+
+.language-language {
+  color: white;
+  margin: 0 4px;
+}
+
+.language-select {
+  width: 20px;
+  fill: white;
+}
+
+.main-font {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  width: 412px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+h3 {
+  max-width: none;
+  /* padding: 0 0; */
+}
+
+.main-email-start {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.email {
+  display: flex;
+  text-align: center;
+  width: 200px;
+}
+
+#email {
+  /* margin: 0;
+  padding: 0; */
+  width: 500px;
+  height: 50px;
+}
+
+.main-strat {
+  background-color: #e50914;
+  color: white;
+  width: 150px;
+  height: 55px;
+  border: 0;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-tv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.tv-contents {
+  display: flex;
+  border-bottom: 8px solid #3d3d3d;
+  padding: 70px 14px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.tv-contents-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+}
+
+.tv-contents1 > h1 {
+  font-size: 50px;
+}
+
+.tv-contents1 > h2 {
+  font-size: 32px;
+}
+
+.tv-contents2 > img {
+  width: 480px;
+  height: 320px;
+  position: absolute;
+  z-index: 10;
+}
+
+.tv-content2 > video {
+  width: 400px;
+  height: 300px;
+}
+
+.mobile-contents {
+  display: flex;
+}
+
+.mobile-contents1 {
+  position: relative;
+}
+
+.mobile-contents1-img {
+  width: 480px;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-contents1 > video {
+  position: absolute;
+  top: 32px;
+  left: 89px;
+  width: 300px;
+}
+
+.mobile-contents {
+  display: flex;
+  border-bottom: 8px solid #3d3d3d;
+  padding: 70px 14px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-contents2 {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mobile-contents2 > h1 {
+  font-size: 40px;
+  text-align: start;
+}
+
+.mobile-contents2 > h2 {
+  text-align: center;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.child-contents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.child-contens1 {
+  width: 430px;
+}
+
+.child-contens1 > h1 {
+  text-align: start;
+  font-size: 40px;
+}
+
+.child-contens1 > h2 {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.child-contents-img {
+  width: 480px;
+}
+
+.child-contents-img {
+  padding-left: 3rem;
+}
+
+.child-contents {
+  display: flex;
+  border-bottom: 8px solid #3d3d3d;
+  padding: 70px 14px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.fun-contents {
+  display: flex;
+  border-bottom: 8px solid #3d3d3d;
+  padding: 70px 14px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.fun-text-title {
+  width: 500px;
+  text-align: start;
+}
+
+.fun-text-sub {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.fun-contents1-img1 {
+  width: 505px;
+}
+
+.fun-contents1-border {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  display: flex;
+  width: 60%;
+  padding: 0.5em 0.75em;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 30px;
+  left: 85px;
+  background-color: black;
+}
+
+.text {
+  color: white;
+  width: 40%;
+}
+
+.text-1 {
+  color: #0071eb;
+}
+
+.border-img1 {
+  height: 80px;
+}
+
+.animation > img {
+  width: 48px;
+}
+
+.fun-contents1 {
+  position: relative;
+}
+
+.qeustion-list {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.qeustion-list > li > button {
+  width: 100%;
+  height: 76px;
+  margin: 4px;
+  background-color: #303030;
+  color: white;
+}
+
+.qeustion-list > li > button > svg {
+  transform: rotate(45deg);
+  width: 30px;
+  fill: white;
+}
+
+.qeustion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid #3d3d3d;
+  padding: 70px 14px;
+  width: 100vw;
+}
+
+.qeustion-button {
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  font-size: 30px;
+  /* text-align: start; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* font-size: 20px; */
+  font-weight: 400px;
+  /* position: relative; */
+}
+
+.qeustion-button > svg {
+  align-items: end;
+}
+
+.qeustion-box {
+  font-size: 20px;
+  width: 100%;
+}
+
+.qeustion-title-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qeustion-box > .main-main {
+  /* display: flex;
+  align-items: center; */
+  /* flex-direction: column; */
+  /* padding: 20px; */
+  /* justify-content: center; */
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
+
+.footer-end {
+  /* padding: 70px 0 45px 45px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.end-msg {
+  padding: 70px 350px 0 350px;
+}
+
+.end-call {
+  margin: 0 0 30px;
+  color: #737373;
+  font-size: 25px;
+  text-align: start;
+}
+
+.end-list {
+  font-size: 17px;
+  color: #737373;
+  list-style-type: none;
+  display: block;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.end-list-menu {
+  width: 200px;
+  display: inline-block;
+  padding: 0 20px 0 0;
+  margin-bottom: 20px;
+}
+
+.footer-country {
+  font-size: 15px;
+  color: #737373;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.service-text {
+  color: #737373;
+  margin-bottom: 20px;
+  /* margin-top: 5px; */
+}
